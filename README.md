@@ -49,6 +49,10 @@ The numbers reported in the table below are evaluated with our open-source tool 
 [OpenThinker-7B](https://huggingface.co/open-thoughts/OpenThinker-7B) vs other 7B models:
 |                             | AIME24   | MATH500 | GPQA-Diamond | LCBv2 Easy  | LCBv2 Medium  | LCBv2 Hard  | LCBv2 All  |
 | --------------------------- | -------- | ------- | ------------ | ----------- | ------------- | ----------- | ---------- |
+| (Code+Math 64K Base Qwen)         |  16.7    | 76.2    | 27.8         | -        | -          | -         | -       |
+| (Code+Math 64K Base Qwen-Coder)         |  20.0    | 76.2    | 31.8         | 78.1        | 34.5          | 2.7         | **42.4**       |
+| (Code 16K Base Qwen-Coder)              |  -     | -   | **52.0**      | -        | -          | -         | -       |
+| (Code 110K Base Qwen-Coder)              |  13.3     | 76.4   | **47.5**      | **81.1**        | 30.4          | 4.4         | 42.2       |
 | OpenThinker-7B              | 31.3     | 83.0    | 42.4         | 75.3        | 28.6          | 6.5         | 39.9       |
 | Bespoke-Stratos-7B          | 22.7     | 79.6    | 38.9         | 71.4        | 25.2          | 0.8         | 35.8       |
 | DeepSeek-R1-Distill-Qwen-7B | 60       | 88.2    | 46.9         | 79.7        | 45.1          | 14.6        | 50.1       |
